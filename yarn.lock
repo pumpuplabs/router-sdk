@@ -1570,10 +1570,9 @@
   resolved "https://registry.npmjs.org/@uniswap/lib/-/lib-4.0.1-alpha.tgz"
   integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
 
-"@uniswap/sdk-core@^3.0.0-alpha.3", "@uniswap/sdk-core@^3.0.1":
+"@uniswap/sdk-core@https://github.com/pumpuplabs/sdk-core.git":
   version "3.0.1"
-  resolved "https://registry.npmjs.org/@uniswap/sdk-core/-/sdk-core-3.0.1.tgz"
-  integrity sha512-WbeDkhZ9myVR0VnHOdTrb8nHKKkqTFa5uE9RvUbG3eyDt2NWWDwhhqGHwAWJEHG405l30Fa1u3PogHDFsIOQlA==
+  resolved "https://github.com/pumpuplabs/sdk-core.git#ac04cfd071842f842cb4431f6a8826315bd619d9"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1598,14 +1597,13 @@
   resolved "https://registry.npmjs.org/@uniswap/v2-core/-/v2-core-1.0.1.tgz"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
-"@uniswap/v2-sdk@^3.0.1":
+"@uniswap/v2-sdk@https://github.com/pumpuplabs/v2-sdk.git":
   version "3.0.1"
-  resolved "https://registry.npmjs.org/@uniswap/v2-sdk/-/v2-sdk-3.0.1.tgz"
-  integrity sha512-eSpm2gjo2CZh9FACH5fq42str/oSNyWcDxB27o5k44bEew4sxb+pld4gGIf/byJndLBvArR9PtH8c0n/goNOTw==
+  resolved "https://github.com/pumpuplabs/v2-sdk.git#3ea066632318d14fc90b38f77b295e1f55e333b3"
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
-    "@uniswap/sdk-core" "^3.0.0-alpha.3"
+    "@uniswap/sdk-core" "https://github.com/pumpuplabs/sdk-core.git"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
@@ -1638,14 +1636,13 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-sdk@^3.8.3":
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-sdk/-/v3-sdk-3.8.3.tgz#7e0c3fc4fff4e88c0d5348885e0493b57eaa865b"
-  integrity sha512-5zx8Fi41KyL7IhleZsRTRiX2lo+i0E4ks+IhVeyq0nrRPzO9f4drgHi29VwZaDw0+RWf+OCLm0CURURsJO2MZg==
+"@uniswap/v3-sdk@https://github.com/pumpuplabs/v3-sdk.git":
+  version "3.8.2"
+  resolved "https://github.com/pumpuplabs/v3-sdk.git#eae13ad5ce503aa5a9b3789cf6919ea21cf75053"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
-    "@uniswap/sdk-core" "^3.0.1"
+    "@uniswap/sdk-core" "https://github.com/pumpuplabs/sdk-core.git"
     "@uniswap/v3-periphery" "^1.1.1"
     "@uniswap/v3-staker" "1.0.0"
     tiny-invariant "^1.1.0"
