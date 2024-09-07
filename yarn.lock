@@ -1572,7 +1572,7 @@
 
 "@uniswap/sdk-core@https://github.com/pumpuplabs/sdk-core.git":
   version "3.0.1"
-  resolved "https://github.com/pumpuplabs/sdk-core.git#d16194635415cdffd804e89fc7525dcf75b17359"
+  resolved "https://github.com/pumpuplabs/sdk-core.git#ac04cfd071842f842cb4431f6a8826315bd619d9"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1638,7 +1638,7 @@
 
 "@uniswap/v3-sdk@https://github.com/pumpuplabs/v3-sdk.git":
   version "3.8.2"
-  resolved "https://github.com/pumpuplabs/v3-sdk.git#fcbd3abc3deac405486879337e5afd7b493b2749"
+  resolved "https://github.com/pumpuplabs/v3-sdk.git#eae13ad5ce503aa5a9b3789cf6919ea21cf75053"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
