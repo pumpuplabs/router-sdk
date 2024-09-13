@@ -1638,7 +1638,7 @@
 
 "@uniswap/v3-sdk@https://github.com/pumpuplabs/v3-sdk.git":
   version "3.8.2"
-  resolved "https://github.com/pumpuplabs/v3-sdk.git#d780c798976722ecf49ac095151071df51d5bc3f"
+  resolved "https://github.com/pumpuplabs/v3-sdk.git#9ffeadef5d355b75fd4cafb184c6dc007af48027"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
